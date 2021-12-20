@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Row, Col, Carousel, Container, Image, Nav, Navbar, NavDropdown, Card, Button } from 'react-bootstrap';
+import Footer from './components/Footer';
+import ClientReview from './components/ClientReview';
+import Navbars from './components/Navbars';
+import Cards from './components/Cards';
+import Carousels from './components/Carousels';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<>
+
+    <Navbars />
+    <Carousels />
+    <Cards />
+    <ClientReview />
+    <Footer />
+
+
+  </>
+
   );
 }
 
