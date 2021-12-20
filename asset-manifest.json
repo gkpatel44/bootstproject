@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bootstproject/static/css/main.04179b6f.css",
+    "main.js": "/bootstproject/static/js/main.c6141c4a.js",
+    "index.html": "/bootstproject/index.html",
+    "main.04179b6f.css.map": "/bootstproject/static/css/main.04179b6f.css.map",
+    "main.c6141c4a.js.map": "/bootstproject/static/js/main.c6141c4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04179b6f.css",
+    "static/js/main.c6141c4a.js"
+  ]
+}
